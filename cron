@@ -1,0 +1,4 @@
+00 0 * * * /srv/php/cron.sh
+00 6 * * * /srv/php/cron.sh
+00 12 * * * /srv/php/cron.sh
+00 18 * * * /srv/php/cron.sh
