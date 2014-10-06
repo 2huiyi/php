@@ -7,11 +7,12 @@ require("../genv/share.php");
 
 
 
-$DH_name='电影小二网';
-$DH_name_des='电影网址导航_电影网站导航';
+$DH_name='会展小二网';
+$DH_name_des='会议_展会_活动信息导航';
 $DH_dh_title=$DH_name."-".$DH_name_des;
-$DH_dh_url="http://dh.movie002.com/";
+$DH_dh_url="http://dh.2huiyi.com/";
 //$DH_dh_url="http://127.0.0.1/dh/";
+$DH_dh_path= $_SERVER['DOCUMENT_ROOT'] . '/2huiyi/dh/';
 
 
 //利用本url建立share文件
@@ -24,8 +25,8 @@ $DH_output3 = dh_file_get_contents($DH_input_html);
 $DH_input_html  = 'site.xml';
 $DH_output_site = dh_file_get_contents($DH_input_html);
 
-$replacecontent1=array('1','1','1','1','1','2','2','2','2','2','3','3','3','3','3','3','4','4','4','4','4');
-$replacecontent2=array('0','1','2','3','4','0','1','2','3','4','0','1','2','3','4','5','0','1','2','3','4');
+$replacecontent1=array('1','1','1','1','1','2','2','2','2','2','3','3','3','3','3','3','4','4','4','4','4','5');
+$replacecontent2=array('0','1','2','3','4','0','1','2','3','4','0','1','2','3','4','5','0','1','2','3','4','0');
 
 foreach ($replacecontent1 as $key=>$eachrc)
 {

@@ -23,7 +23,6 @@ $pagecount=15;
 $DH_output_path= $_SERVER['DOCUMENT_ROOT'] . '/v/';
 $DH_input_path= $_SERVER['DOCUMENT_ROOT'] . '/php/';
 $DH_author_path= $_SERVER['DOCUMENT_ROOT'] . '/www/';
-$DH_dh_path= $_SERVER['DOCUMENT_ROOT'] . '/dh/';
 $DH_home_url= 'http://127.0.0.1/v/';
 
 
