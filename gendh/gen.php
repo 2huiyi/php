@@ -10,9 +10,9 @@ require("../genv/share.php");
 $DH_name='会展小二网';
 $DH_name_des='会议_展会_活动信息导航';
 $DH_dh_title=$DH_name."-".$DH_name_des;
-$DH_dh_url="http://dh.2huiyi.com/";
-//$DH_dh_url="http://127.0.0.1/dh/";
-$DH_dh_path= $_SERVER['DOCUMENT_ROOT'] . '/2huiyi/dh/';
+$DH_dh_url="http://123.2huiyi.com/";
+//$DH_dh_url="http://127.0.0.1/123/";
+$DH_dh_path= $_SERVER['DOCUMENT_ROOT'] . '/2huiyi/123/';
 
 
 //利用本url建立share文件
