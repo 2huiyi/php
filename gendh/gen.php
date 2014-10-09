@@ -7,8 +7,8 @@ require("../genv/share.php");
 
 
 
-$DH_name='会展小二网';
-$DH_name_des='会议_展会_活动信息导航';
+$DH_name='爱会议网';
+$DH_name_des='会议_会展_展会_活动信息导航';
 $DH_dh_title=$DH_name."-".$DH_name_des;
 $DH_dh_url="http://123.2huiyi.com/";
 //$DH_dh_url="http://127.0.0.1/123/";
